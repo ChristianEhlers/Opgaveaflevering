@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+<body>
+	<svg viewbox='0 0 400 200'>
+		<ellipse cx="200"cy="100" rx="190" ry="90" fill="blue"></ellipse>
+		<circle r="10" fill="yellow" cx="200" cy="100"></circle>
+		<style>
+        	svg {
+            	border: 1px solid black;
+                height: 200px;
+                width: 400px;
+				background-color: black;
+                 }
+        </style>
+    </svg>
+	
+	<section>
+		<h3>What is a viewbox?</h3>
+		<p>En viewbox er en attribut til HTML-elementet SVG, som bruges til at skalere SVG'en. Dvs den kan bruges til at sætte kordinater, højde og bredde.</p>
+		
+		<h3>What is a viewport?</h3>
+		<p>En viewport er det synlige på en hjemmeside. Det varierer i størrelse afhængig af brugerens device.</p>
+		
+		<h3>How do they relate to each other?</h3>
+		<p>Viewporten er det synlige af SVG'en på siden mens viewboxen kontrollerer den egentlige størrelse af det. Det er derfor vigtigt at få dem tilpasset med samme højde/bredde, så man får synliggjort hele SVG'en. </p>
+		
+		<h3>How to scale an SVG drawing's appearance on a web page?</h3>
+		<p>Der skal højde og bredde attributerne i brug.</p>
+	</section>
+</body>
+</html>
